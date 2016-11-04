@@ -15,6 +15,8 @@ Rails.application.routes.draw do
   get('/directors/:id/edit_form', {:controller => 'directors', :action => 'edit_form'})
   get('/update_directors/:id', {:controller => 'directors', :action => 'update_row'})
 
+  #Routes to DELETE existing DIRECTORS
+
 
 
 end
