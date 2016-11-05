@@ -38,4 +38,10 @@ class DirectorsController < ApplicationController
     render("show")
   end
 
+  def destroy
+    @director = Director.find(params[:id])
+    @director.destroy
+
+  end
+
 end
